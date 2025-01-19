@@ -1,0 +1,103 @@
+
+header{
+    width: 100%;
+    position: sticky;
+    background-color: #020216;
+    border-style: solid;
+    border-color:#8202c7b2;
+    border-width: 0px 0px 1px 0px ;
+    padding: 30px 50px 10px 50px;
+    display:flex;
+    align-items: center;
+    z-index: 2;
+    font-size: 18px;
+    top:0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.active{
+    color: #8202C7;
+    border-bottom-style: solid;
+    border-color: #8202C7;
+    border-width: 1px;
+    font-size: larger;
+}
+.log-in, .register{
+    background-color: #8202C7;
+    border-radius: 30px;
+    font-size: 20px;
+    color:white;   
+    padding: 10px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #8202C7;
+    transition: 0.5s ease-in-out;
+    max-height: 50px;
+}
+.log-in:hover, .register:hover{
+    background-color: #020216;
+    color: #8202C7;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+a{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.logo{
+    color: #8202C7;
+    font-size: 50px;
+    padding: 0px 20px;
+}
+.authorization{
+    display: flex;
+
+}
+.username{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.search{
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-height: 50px;
+
+
+}
+.search input{
+    margin-bottom: 0;
+    background-color: transparent;
+    font-size: 20px;
+    margin-top: 0;
+
+}
+
+.search span{
+    position: absolute;
+    cursor: pointer;
+    
+}
+.search-icon{
+    right: 10%;
+}
+.remove-icon{
+    right: 0%;
+}
+nav div{
+    display: flex;
+    gap:30px;
+}
+
